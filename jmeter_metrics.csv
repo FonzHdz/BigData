@@ -1,0 +1,9 @@
+Metric,Label,Type,Value,Unit
+jtmeter_rt,ResponseTime,SUMMARY,"0.75:100,0.5:100|0.95:100,0.1:100|0.99:100,0.01:100",samples
+jmeter_status,CountTotal,COUNTER,100,samples
+jmeter_hist,ResponseTime,HISTOGRAM,"100:100,500:100,1000:100,3000:100",samples
+jmeter_successratio,ResponseTime,SUCCESS_RATIO,100,samples
+jmeter_ct,ConnectTime,COUNTER,100,samples
+jmeter_pass,SuccessTotal,COUNTER,100,samples
+jmeter_summary,ResponseTime,SUMMARY,"0.75:100,0.5:100|0.95:100,0.1:100|0.99:100,0.01:100",samples
+jmeter_size,ResponseSize,SUMMARY,"0.75:100,0.5:100|0.95:100,0.1:100|0.99:100,0.01:100",samples
